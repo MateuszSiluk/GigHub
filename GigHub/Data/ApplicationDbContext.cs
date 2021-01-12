@@ -15,5 +15,7 @@ namespace GigHub.Data
             : base(options)
         {
         }
+
+        
     }
 }
