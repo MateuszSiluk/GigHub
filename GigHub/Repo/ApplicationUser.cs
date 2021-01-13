@@ -8,6 +8,6 @@ namespace GigHub.Repo
 {
     public class ApplicationUser : IdentityUser
     {
-        public virtual string Email { get; set; } // example, not necessary
+        public virtual string Id { get; set; } // example, not necessary
     }
 }
