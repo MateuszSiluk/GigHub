@@ -33,7 +33,6 @@ namespace GigHub.Controllers
         
         [Authorize]
         [HttpPost]
-        [AutoValidateAntiforgeryToken]
         public ActionResult Create(GigFormViewModel viewModel)
         {
 
